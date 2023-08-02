@@ -55,8 +55,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghost\IdeaProjects\JavaGroupG" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Book2.Chapter5" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.NumberPhobia">
+  <component name="RunManager" selected="Application.GetABet">
     <configuration name="Book2.Chapter4.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter4.MainClass" />
       <module name="JavaGroupA" />
@@ -83,25 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.MainClass" />
+    <configuration name="GetABet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.GetABet" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book2.Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberFormatClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.NumberFormatClassApp" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book2.Chapter3.*" />
+          <option name="PATTERN" value="Book2.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,6 +101,19 @@
     </configuration>
     <configuration name="NumberPhobia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.NumberPhobia" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book2.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberPhobia2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.NumberPhobia2" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetABet" />
+        <item itemvalue="Application.NumberPhobia2" />
         <item itemvalue="Application.NumberPhobia" />
         <item itemvalue="Application.EvenCounter" />
         <item itemvalue="Application.Book2.Chapter4.MainClass" />
-        <item itemvalue="Application.Book2.Chapter3.MainClass" />
-        <item itemvalue="Application.NumberFormatClassApp" />
       </list>
     </recent_temporary>
   </component>
