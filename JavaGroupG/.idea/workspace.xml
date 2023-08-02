@@ -59,22 +59,9 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GetABet">
-    <configuration name="Book2.Chapter4.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter4.MainClass" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book2.Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvenCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.EvenCounter" />
+  <component name="RunManager" selected="Application.ExpressionGanging">
+    <configuration name="CountBotWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.CountBotWays" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +73,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetABet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.GetABet" />
+    <configuration name="CountToTenErrorFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.CountToTenErrorFix" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPhobia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.NumberPhobia" />
+    <configuration name="ExpressionGanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.ExpressionGanging" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +99,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberPhobia2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.NumberPhobia2" />
+    <configuration name="GetABet3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.GetABet3" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book2.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LaunchControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.LaunchControl" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GetABet" />
-        <item itemvalue="Application.NumberPhobia2" />
-        <item itemvalue="Application.NumberPhobia" />
-        <item itemvalue="Application.EvenCounter" />
-        <item itemvalue="Application.Book2.Chapter4.MainClass" />
+        <item itemvalue="Application.ExpressionGanging" />
+        <item itemvalue="Application.CountBotWays" />
+        <item itemvalue="Application.LaunchControl" />
+        <item itemvalue="Application.CountToTenErrorFix" />
+        <item itemvalue="Application.GetABet3" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +236,24 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Book2/Chapter5/CountToTenErrorFix.java</url>
+          <line>3</line>
+          <properties class="Book2.Chapter5.CountToTenErrorFix" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Book2/Chapter5/LaunchControl.java</url>
+          <line>3</line>
+          <properties class="Book2.Chapter5.LaunchControl" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

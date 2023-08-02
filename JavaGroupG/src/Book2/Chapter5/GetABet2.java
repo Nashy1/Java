@@ -2,7 +2,7 @@ package Book2.Chapter5;
 
 import java.util.Scanner;
 
-public class GetABet {
+public class GetABet2 {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -13,7 +13,9 @@ public class GetABet {
         do {
             System.out.print("Enter your bet: ");
             bet = sc.nextInt();
-
+            if((bet <=0)||(bet > bank)){
+                System.out.println("Invalid value");
+            }
         } while ((bet <= 0)||(bet > bank));
         System.out.println("Your money is Good here.");
     }
