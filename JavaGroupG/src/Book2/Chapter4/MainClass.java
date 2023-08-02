@@ -1,4 +1,4 @@
-package Book2.Chater4;
+package Book2.Chapter4;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -7,7 +7,8 @@ public class MainClass {
                 + ((appleCount>1) ? "s." : ".");
         System.out.println(msg);
 
-        if (answer == "Yes")
+        String answer = "no";
+        if (answer.equals("Yes"))
             System.out.println("The answer is Yes.");
     }
 }
