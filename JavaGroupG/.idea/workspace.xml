@@ -59,7 +59,7 @@
   <component name="RunManager" selected="Application.Book2.Chapter4.MainClass">
     <configuration name="Book2.Chapter4.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter4.MainClass" />
-      <module name="JavaGroupG" />
+      <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book2.Chapter4.*" />
@@ -72,7 +72,7 @@
     </configuration>
     <configuration name="DiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.DiceApp" />
-      <module name="JavaGroupG" />
+      <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book2.Chapter3.*" />
@@ -85,7 +85,7 @@
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.MainClass" />
-      <module name="JavaGroupG" />
+      <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book2.Chapter3.*" />
@@ -98,7 +98,7 @@
     </configuration>
     <configuration name="NumberFormatClassApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.NumberFormatClassApp" />
-      <module name="JavaGroupG" />
+      <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book2.Chapter3.*" />
@@ -111,13 +111,26 @@
     </configuration>
     <configuration name="RoundingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.RoundingApp" />
-      <module name="JavaGroupG" />
+      <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book2.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JavaGroupA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JavaGroupA" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
