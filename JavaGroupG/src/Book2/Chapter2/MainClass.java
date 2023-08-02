@@ -14,11 +14,11 @@ public class MainClass {
 //        }
 //        System.out.println();
 
-//        int xint;
-//        long ylong;
-//        xint=32;
-//        ylong=xint;
-//        ylong=32;
+        int xint;
+        long ylong;
+        xint=32;
+        ylong=xint;
+        ylong=32;
         //you cannot assign a larger integer type like long to a smaller integer type like int
 
 //        class ball{
