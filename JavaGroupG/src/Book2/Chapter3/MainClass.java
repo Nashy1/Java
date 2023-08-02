@@ -36,9 +36,15 @@ public class MainClass {
 //        nf.setMaximumFractionDigits(3);
 //        System.out.println(nf.format(x));
 
-        NumberFormat pf = NumberFormat.getPercentInstance();
-        double grade = .92;
-        System.out.println(pf.format(grade));
+//        NumberFormat pf = NumberFormat.getPercentInstance();
+//        double grade = .92;
+//        System.out.println(pf.format(grade));
+
+        float x = 0.1f;
+        NumberFormat nf = NumberFormat.getNumberInstance();
+        nf.setMinimumFractionDigits(10);
+        System.out.println(nf.format(x));
+
 
 
 

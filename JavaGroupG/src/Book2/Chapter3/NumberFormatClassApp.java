@@ -10,10 +10,10 @@ public class NumberFormatClassApp {
     }
     public static void printMyAllowance(){
         double myAllowance = 10.00;
-        cf = NumberFormat.getCurrencyInstance();
         System.out.println("My Allowance: " + cf.format(myAllowance));
     }
     public static void  printCostOfPainBallGun(){
-        
+        double costOfGun = 69.95;
+        System.out.println("Cost of PainBall Gun: " + cf.format(costOfGun));
     }
 }
