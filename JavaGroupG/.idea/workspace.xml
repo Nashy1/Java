@@ -56,7 +56,20 @@
       <recent name="C:\Users\ghost\IdeaProjects\JavaGroupG" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NumberFormatClassApp">
+  <component name="RunManager" selected="Application.Book2.Chater4.MainClass">
+    <configuration name="Book2.Chater4.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chater4.MainClass" />
+      <module name="JavaGroupG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book2.Chater4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.DiceApp" />
       <module name="JavaGroupG" />
@@ -72,19 +85,6 @@
     </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.MainClass" />
-      <module name="JavaGroupG" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book2.Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathFunctionsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.MathFunctionsApp" />
       <module name="JavaGroupG" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NumberFormatClassApp" />
+        <item itemvalue="Application.Book2.Chater4.MainClass" />
         <item itemvalue="Application.Book2.Chapter3.MainClass" />
+        <item itemvalue="Application.NumberFormatClassApp" />
         <item itemvalue="Application.RoundingApp" />
         <item itemvalue="Application.DiceApp" />
-        <item itemvalue="Application.MathFunctionsApp" />
       </list>
     </recent_temporary>
   </component>

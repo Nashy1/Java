@@ -45,6 +45,10 @@ public class MainClass {
         nf.setMinimumFractionDigits(10);
         System.out.println(nf.format(x));
 
+        double z = 0.1f;
+        NumberFormat f = NumberFormat.getNumberInstance();
+        f.setMinimumFractionDigits(10);
+        System.out.println(f.format(z));
 
 
 
