@@ -59,13 +59,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessingGame2">
-    <configuration name="GuessingGame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter7.GuessingGame2" />
+  <component name="RunManager" selected="Application.GuessingGame">
+    <configuration name="DivideByZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter8.DivideByZero" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book2.Chapter7.*" />
+          <option name="PATTERN" value="Book2.Chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter6.MainClass" />
+    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter8.GuessingGame" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book2.Chapter6.*" />
+          <option name="PATTERN" value="Book2.Chapter8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessingGame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter7.GuessingGame2" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book2.Chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VoterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter6.VoterApp" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book2.Chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessingGame" />
+        <item itemvalue="Application.DivideByZero" />
         <item itemvalue="Application.GuessingGame2" />
         <item itemvalue="Application.RandomNumber" />
         <item itemvalue="Application.SpaApp" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.VoterApp" />
       </list>
     </recent_temporary>
   </component>
