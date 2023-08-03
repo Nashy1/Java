@@ -1,11 +1,9 @@
-package Book2.Chapter7;
+package Book2.Chapter8;
 
-import java.security.spec.RSAOtherPrimeInfo;
 import java.util.InputMismatchException;
-import java.util.Locale;
 import java.util.Scanner;
 
-public class GuessingGame2 {
+public class GuessingGame {
     static Scanner sc = new Scanner(System.in);
 
 
@@ -52,7 +50,7 @@ public class GuessingGame2 {
         while (true){
 
             try{
-             guess=sc.nextInt();}
+                guess=sc.nextInt();}
             catch (InputMismatchException ex){
                 System.out.println("Please enter a NUMBER!");
             }catch (Exception ex){
@@ -79,14 +77,13 @@ public class GuessingGame2 {
             if (answer.equalsIgnoreCase("Y")){
                 return true;
             }
-             else if (answer.equalsIgnoreCase("N")) {
-            return false;
-        }
-        else {
-            System.out.println("Please ans 'Y' or 'N'");
-        }
+            else if (answer.equalsIgnoreCase("N")) {
+                return false;
+            }
+            else {
+                System.out.println("Please ans 'Y' or 'N'");
+            }
         } while (true);
 
-        }
     }
-
+}
