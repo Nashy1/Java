@@ -20,11 +20,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -42,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/ghost/IdeaProjects/JavaGroupG",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ghost/IdeaProjects/JavaGroupG&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghost\IdeaProjects\JavaGroupG" />
@@ -59,26 +59,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessingGaming">
-    <configuration name="CountBotWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.CountBotWays" />
+  <component name="RunManager" selected="Application.VoterApp">
+    <configuration name="CircleAreaApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.CircleAreaApp" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book2.Chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExpressionGanging" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.ExpressionGanging" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book2.Chapter5.*" />
+          <option name="PATTERN" value="Book2.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,19 +75,6 @@
     </configuration>
     <configuration name="GuessingGaming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.GuessingGaming" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book2.Chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LaunchControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter5.LaunchControl" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -125,26 +99,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="RoundingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.RoundingApp" />
       <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book2.Chapter3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+    <configuration name="VoterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.VoterApp" />
       <module name="JavaGroupA" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessingGaming" />
+        <item itemvalue="Application.VoterApp" />
         <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.ExpressionGanging" />
-        <item itemvalue="Application.CountBotWays" />
-        <item itemvalue="Application.LaunchControl" />
+        <item itemvalue="Application.RoundingApp" />
+        <item itemvalue="Application.CircleAreaApp" />
+        <item itemvalue="Application.GuessingGaming" />
       </list>
     </recent_temporary>
   </component>
