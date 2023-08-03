@@ -59,7 +59,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SpaApp">
+  <component name="RunManager" selected="Application.RandomNumber">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book2.Chapter6.MainClass" />
       <module name="JavaGroupA" />
@@ -86,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoundingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.Chapter3.RoundingApp" />
+    <configuration name="RandomNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter7.RandomNumber" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book2.Chapter3.*" />
+          <option name="PATTERN" value="Book2.Chapter7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomNumber" />
         <item itemvalue="Application.SpaApp" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.VoterApp" />
         <item itemvalue="Application.Matrix" />
-        <item itemvalue="Application.RoundingApp" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +256,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Book2/Chapter7/RandomNumber.java</url>
+          <line>3</line>
+          <properties class="Book2.Chapter7.RandomNumber" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
