@@ -113,11 +113,11 @@
       </method>
     </configuration>
     <configuration name="VoterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book2.VoterApp" />
+      <option name="MAIN_CLASS_NAME" value="Book2.Chapter6.VoterApp" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book2.*" />
+          <option name="PATTERN" value="Book2.Chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,6 +224,11 @@
           <url>file://$PROJECT_DIR$/src/Book2/Chapter5/GuessingGaming.java</url>
           <line>8</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Book2/Chapter6/VoterApp.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Book2/Chapter3/MarbleApp.java</url>
