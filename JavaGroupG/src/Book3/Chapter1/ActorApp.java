@@ -12,7 +12,5 @@ public class ActorApp {
         actor2.printOdj();
         actor1.printOdj();
 
-        
-
     }
 }
