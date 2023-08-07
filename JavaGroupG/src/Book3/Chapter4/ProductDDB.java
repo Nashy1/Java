@@ -5,14 +5,15 @@ import java.io.IOException;
 public class ProductDDB {
     //main
     public static void main(String[] args) throws ProductDataException{
-       Product p= ProductDDB.getProduct("i");
+       Product p= ProductDDB.getProduct("z");
+        System.out.println(p);
     }
     //getProduct method the will get our err
     public static Product getProduct(String code) {
         Product p;
         try {
              p = new Product("z");
-            System.out.println(p);
+//            System.out.println(p);
             return p;
         } catch (ProductDataException e) {
             System.out.println(e);
@@ -27,8 +28,10 @@ class Product{
     public Product(String code)throws ProductDataException{
         if(code.equalsIgnoreCase("z")){
             throw new ProductDataException(
-                    "An IO error occurred.");
+                    "Z is not accepted. ");
         }
+        this.code=code;
+
     }
 
     public Product(){

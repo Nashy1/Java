@@ -4,4 +4,7 @@ public class ProductDataException extends Exception {
     public ProductDataException(String msg){
         super(msg);
     }
+    public ProductDataException(){
+        super("Product err");
+    }
 }
