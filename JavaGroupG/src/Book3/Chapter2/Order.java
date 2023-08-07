@@ -1,4 +1,4 @@
-package Book3.Chapter1;
+package Book3.Chapter2;
 
 public class Order {
     private double unitPrice;

@@ -56,11 +56,38 @@
       <recent name="C:\Users\ghost\IdeaProjects\JavaGroupG" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Book3.Chapter4" />
       <recent name="Book2.Chapter8" />
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PlayingGame">
+  <component name="RunManager" selected="Application.Employee">
+    <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.Ball" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book3.Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ball2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.Ball2" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book3.Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountTestApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter3.CountTestApp" />
       <module name="JavaGroupA" />
@@ -74,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.PlayingGame" />
+    <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.Employee" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -87,38 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleTon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter3.SingleTon" />
+    <configuration name="SoftBall2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.SoftBall2" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book3.Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StatIntApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter1.StatIntApp" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter3.StaticInt" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter3.*" />
+          <option name="PATTERN" value="Book3.Chapter4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PlayingGame" />
-        <item itemvalue="Application.StaticInt" />
-        <item itemvalue="Application.SingleTon" />
+        <item itemvalue="Application.Employee" />
+        <item itemvalue="Application.Ball2" />
+        <item itemvalue="Application.SoftBall2" />
+        <item itemvalue="Application.Ball" />
         <item itemvalue="Application.CountTestApp" />
-        <item itemvalue="Application.StatIntApp" />
       </list>
     </recent_temporary>
   </component>
@@ -232,7 +233,7 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Book3/Chapter1/StatIntApp.java</url>
+          <url>file://$PROJECT_DIR$/src/Book3/Chapter2/StatIntApp.java</url>
           <line>4</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
