@@ -1,12 +1,16 @@
 package Book3.Chapter4;
 
-import java.io.IOException;
+import org.w3c.dom.ls.LSOutput;
+
+
 
 public class ProductDDB {
+
+
     //main
     public static void main(String[] args) throws ProductDataException{
-       Product p= ProductDDB.getProduct("z");
-        System.out.println(p);
+       Product z= ProductDDB.getProduct("z");
+        System.out.println(z);
     }
     //getProduct method the will get our err
     public static Product getProduct(String code) {
@@ -24,8 +28,10 @@ public class ProductDDB {
 
 
 class Product{
+
   String code;
     public Product(String code)throws ProductDataException{
+
         if(code.equalsIgnoreCase("z")){
             throw new ProductDataException(
                     "Z is not accepted. ");
