@@ -5,4 +5,5 @@ public interface CardGame {
     default void deck(){
         System.out.println();
     }
+
 }

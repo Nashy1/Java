@@ -12,8 +12,10 @@ public class TicTacToe implements Playable,CardGame{
     }
 
     public static void main(String[] args) {
-            TicTacToe g = new TicTacToe();
-            g.play();
-            g.shuffleCards();
+//            TicTacToe g = new TicTacToe();
+//            g.play();
+//            g.shuffleCards();
+            Playable g2 = new TicTacToe();
+            g2.play();
     }
 }

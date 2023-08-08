@@ -62,35 +62,9 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TicTacToe">
-    <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.Ball" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ball2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.Ball2" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Book3.Chapter5.Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.Ball" />
+  <component name="RunManager" selected="Application.TestDefualtMethod">
+    <configuration name="CardDeck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.CardDeck" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -102,12 +76,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductDDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter4.ProductDDB" />
+    <configuration name="TestBall" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TestBall" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book3.Chapter4.*" />
+          <option name="PATTERN" value="Book3.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDefualtMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TestDefualtMethod" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book3.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TickTock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TickTock" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book3.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDefualtMethod" />
+        <item itemvalue="Application.TickTock" />
+        <item itemvalue="Application.TestBall" />
+        <item itemvalue="Application.CardDeck" />
         <item itemvalue="Application.TicTacToe" />
-        <item itemvalue="Application.Book3.Chapter5.Ball" />
-        <item itemvalue="Application.ProductDDB" />
-        <item itemvalue="Application.Ball2" />
-        <item itemvalue="Application.Ball" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +282,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Book3/Chapter5/CardDeck.java</url>
+          <line>17</line>
+          <properties class="Book3.Chapter5.CardDeck" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
