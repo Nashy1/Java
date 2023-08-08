@@ -4,7 +4,7 @@ public class CloneTest {
     public static void main(String[] args) {
         Employee emp = new Employee("Jedi","Nash");
         Employee emp2 = (Employee) emp.clone();
-        System.out.println(emp2);
-        System.out.println(emp);
+        System.out.println("Employee 1 " +emp);
+        System.out.println("Employee 2 " +emp2);
     }
 }
