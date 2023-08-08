@@ -63,7 +63,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEquality3">
+  <component name="RunManager" selected="Application.TestEquality2">
     <configuration name="TestDefualtMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TestDefualtMethod" />
       <module name="JavaGroupA" />
@@ -131,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestEquality3" />
         <item itemvalue="Application.TestEquality2" />
+        <item itemvalue="Application.TestEquality3" />
         <item itemvalue="Application.TestEquality1" />
         <item itemvalue="Application.TestToString" />
         <item itemvalue="Application.TestDefualtMethod" />
@@ -292,6 +292,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Book3/Chapter6/TestEquality3.java</url>
+          <line>3</line>
+          <properties class="Book3.Chapter6.TestEquality3" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
