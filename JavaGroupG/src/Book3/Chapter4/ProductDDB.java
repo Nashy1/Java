@@ -16,7 +16,7 @@ public class ProductDDB {
     public static Product getProduct(String code) {
         Product p;
         try {
-             p = new Product("z");
+             p = new Product("d");
 //            System.out.println(p);
             return p;
         } catch (ProductDataException e) {
