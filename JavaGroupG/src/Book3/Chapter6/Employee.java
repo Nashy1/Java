@@ -13,13 +13,25 @@ public class Employee {
     }
 
     public boolean equals(Object emp){
-        
+        if (this == emp) {
+            return true;
+        }
+        if (emp == null){
+            return false;
+        }
         if(emp instanceof Employee) {
             Employee e = (Employee) emp;
 
             return (this.firstName.equals(this.firstName)) && (this.lastName.equals(this.lastName));
         }return false;
 
+    }
+
+    public Object clone()
+    {
+        Employee emp;
+        emp = new Employee(this.lastName, this.firstName);
+        return emp;
     }
 
 }

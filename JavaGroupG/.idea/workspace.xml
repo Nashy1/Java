@@ -63,13 +63,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEquality2">
-    <configuration name="TestDefualtMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TestDefualtMethod" />
+  <component name="RunManager" selected="Application.CloneTest">
+    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.CloneTest" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book3.Chapter5.*" />
+          <option name="PATTERN" value="Book3.Chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CloneTest" />
         <item itemvalue="Application.TestEquality2" />
         <item itemvalue="Application.TestEquality3" />
         <item itemvalue="Application.TestEquality1" />
         <item itemvalue="Application.TestToString" />
-        <item itemvalue="Application.TestDefualtMethod" />
       </list>
     </recent_temporary>
   </component>
