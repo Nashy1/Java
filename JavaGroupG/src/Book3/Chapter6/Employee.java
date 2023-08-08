@@ -13,8 +13,11 @@ public class Employee {
     }
 
     public boolean equals(Object emp){
-        Employee e = ((Employee) emp);
-        return (this.firstName.equals(this.firstName))&& (this.lastName.equals(this.lastName));
+        if(emp instanceof Employee) {
+            Employee e = (Employee) emp;
+
+            return (this.firstName.equals(this.firstName)) && (this.lastName.equals(this.lastName));
+        }return false;
 
     }
 

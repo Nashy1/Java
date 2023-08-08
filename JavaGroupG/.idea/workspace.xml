@@ -63,7 +63,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestEquality2">
+  <component name="RunManager" selected="Application.TestEquality3">
     <configuration name="TestDefualtMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TestDefualtMethod" />
       <module name="JavaGroupA" />
@@ -103,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestEquality3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.TestEquality3" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book3.Chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.TestToString" />
       <module name="JavaGroupA" />
@@ -116,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TickTock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.TickTock" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestEquality3" />
         <item itemvalue="Application.TestEquality2" />
         <item itemvalue="Application.TestEquality1" />
         <item itemvalue="Application.TestToString" />
         <item itemvalue="Application.TestDefualtMethod" />
-        <item itemvalue="Application.TickTock" />
       </list>
     </recent_temporary>
   </component>
