@@ -2,7 +2,7 @@ package Book4.Chapter2;
 
 import java.util.Arrays;
 
-public class COPYDemo {
+public class CopyDemo {
     public static void main(String args[])
     {
         int arrayOriginal[] = {42, 55, 21};
