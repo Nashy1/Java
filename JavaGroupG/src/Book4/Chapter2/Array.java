@@ -1,5 +1,6 @@
 package Book4.Chapter2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array {
@@ -30,18 +31,31 @@ public class Array {
 //            System.out.println(numbers[i]);
 //        }
 
-        System.out.print("How many players? ");
-        int count = sc.nextInt();
-        sc.nextLine();
-        String[] players = new String[count];
-        for (int i = 0; i < count; i++)
-        {
-            System.out.print("Enter player name: ");
-            players[i] = sc.nextLine();
-        }
-        System.out.println("The players are :");
-        for (int i = 0; i < count; i++){
-            System.out.println(players[i]);
+//        System.out.print("How many players? ");
+//        int count = sc.nextInt();
+//        sc.nextLine();
+//        String[] players = new String[count];
+//        for (int i = 0; i < count; i++)
+//        {
+//            System.out.print("Enter player name: ");
+//            players[i] = sc.nextLine();
+//        }
+//        System.out.println("The players are :");
+//        for (int i = 0; i < count; i++){
+//            System.out.println(players[i]);
+//        }
+
+
+//        int[] startValues = new int[10];
+//        Arrays.fill(startValues, 100);
+//        for (int i :startValues){
+//            System.out.println(i);
+//        }
+
+        int[] ran = new int[1000];
+        Arrays.fill(ran, (int)(Math.random() * 100) + 1);
+        for (int i: ran) {
+            System.out.println(i);
         }
 
     }

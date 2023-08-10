@@ -74,7 +74,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoDimensional">
+  <component name="RunManager" selected="Application.COPYDemo">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.Array" />
       <module name="JavaGroupA" />
@@ -101,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Enhancedloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.Enhancedloop" />
+    <configuration name="COPYDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.COPYDemo" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book4.Chapter1.StringBuilderApp" />
+    <configuration name="Enhancedloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.Enhancedloop" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.COPYDemo" />
+        <item itemvalue="Application.Array" />
         <item itemvalue="Application.TwoDimensional" />
         <item itemvalue="Application.Enhancedloop" />
-        <item itemvalue="Application.Array" />
         <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.StringBuilderApp" />
       </list>
     </recent_temporary>
   </component>
