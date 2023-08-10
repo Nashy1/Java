@@ -76,7 +76,7 @@
   </component>
   <component name="RunManager" selected="Application.TwoDimensional">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book4.Chapter1.Array" />
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.Array" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
