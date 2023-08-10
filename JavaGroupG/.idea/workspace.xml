@@ -64,6 +64,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghost\IdeaProjects\JavaGroupG" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Book3.Chapter8" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Book3.Chapter6" />
       <recent name="Book3.Chapter4" />
@@ -71,7 +74,33 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ball">
+  <component name="RunManager" selected="Application.Enhancedloop">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter1.Array" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book4.Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter.Arrays" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book4.Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter5.Ball" />
       <module name="JavaGroupA" />
@@ -85,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.CloneTest" />
+    <configuration name="Enhancedloop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.Enhancedloop" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book3.Chapter6.*" />
+          <option name="PATTERN" value="Book4.Chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,38 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEquality2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.TestEquality2" />
+    <configuration name="StringBuilderApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter1.StringBuilderApp" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book3.Chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestEquality3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.TestEquality3" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestingPackages" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter8.TestingPackages" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter8.*" />
+          <option name="PATTERN" value="Book4.Chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Enhancedloop" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.StringBuilderApp" />
         <item itemvalue="Application.Ball" />
-        <item itemvalue="Application.TestingPackages" />
-        <item itemvalue="Application.CloneTest" />
-        <item itemvalue="Application.TestEquality2" />
-        <item itemvalue="Application.TestEquality3" />
       </list>
     </recent_temporary>
   </component>
