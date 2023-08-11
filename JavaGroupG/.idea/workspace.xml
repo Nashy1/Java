@@ -74,7 +74,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CopyDemo">
+  <component name="RunManager" selected="Application.BinarySearch">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.Array" />
       <module name="JavaGroupA" />
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book4.Chapter.Arrays" />
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter2.BinarySearch" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.CopyDemo" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.TwoDimensional" />
         <item itemvalue="Application.Enhancedloop" />
-        <item itemvalue="Application.Arrays" />
       </list>
     </recent_temporary>
   </component>
