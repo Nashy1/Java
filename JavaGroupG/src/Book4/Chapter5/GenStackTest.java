@@ -2,13 +2,13 @@ package Book4.Chapter5;
 
 public class GenStackTest {
     public static void main(String[] args) {
-        GenStack<String> gs = new GenStack<>();
+        GenStack<Integer> gs = new GenStack<>();
 
-        System.out.println(" Pushing four items onto the stack");
-        gs.push("one ");
-        gs.push("two ");
-        gs.push("three ");
-        gs.push("four ");
+        System.out.println("Pushing four items onto the stack");
+        gs.push(1);
+        gs.push(2);
+        gs.push(3);
+        gs.push(4);
 
         System.out.println("There are " + gs.size() + " items in the stack.\n");
         System.out.println("The top item is : " +gs.peek() + "\n");
@@ -16,6 +16,7 @@ public class GenStackTest {
         while(gs.hasItem()){
             System.out.println(gs.pop());
         }
+        System.out.println("There are " + gs.size() + " items in the stack.\n");
 
     }
 }

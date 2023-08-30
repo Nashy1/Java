@@ -22,6 +22,7 @@ method, which removes and returns the first element in the linked list.
 If the list is empty, the poll method — and therefore the pop method —
 returns null*/
     public E pop(){
+//        return list.poll();
         return list.pop();
     }
 
