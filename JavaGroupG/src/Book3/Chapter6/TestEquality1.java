@@ -5,7 +5,7 @@ public class TestEquality1 {
         Employee emp1 = new Employee("Lot","Jot");
         Employee emp2 = new Employee("Lot","Jot");
 
-        if (emp1==emp2){
+        if (emp1.equals(emp2)){
             System.out.println("This emp are the same.");
         } else {
             System.out.println("This emp are different");
