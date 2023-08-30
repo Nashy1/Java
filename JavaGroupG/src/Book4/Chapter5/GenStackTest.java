@@ -11,9 +11,9 @@ public class GenStackTest {
         gs.push(4);
 
         System.out.println("There are " + gs.size() + " items in the stack.\n");
-        System.out.println("The top item is : " +gs.peek() + "\n");
+        System.out.println("The top item is : " + gs.peek() + "\n");
         System.out.println("Popping everything: ");
-        while(gs.hasItem()){
+        while (gs.hasItem()) {
             System.out.println(gs.pop());
         }
         System.out.println("There are " + gs.size() + " items in the stack.\n");
