@@ -21,15 +21,15 @@ public class linkedList1 {
         officers.add(2,jake);
 
         //updating an index using set
-//        String removedItem = officers.set(2,"Murdock");
+        String removedItem = officers.set(2,"Murdock");
 
 
 
 
-//        for (String s : officers) {
-//            System.out.println(s);
-//        }
-//        System.out.println("Removed item is: " + removedItem);
+        for (String s : officers) {
+            System.out.println(s);
+        }
+        System.out.println("Removed item is: " + removedItem);
 
 
         //removing

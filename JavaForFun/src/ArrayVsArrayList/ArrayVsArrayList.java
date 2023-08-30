@@ -30,8 +30,8 @@ public class ArrayVsArrayList {
 
         //add element
         //we cant add with Arrys
-//        friendsArrayList2.add("UU");
-//        System.out.println(friendsArrayList2.get(3));
+        friendsArrayList2.add("UU");
+        System.out.println(friendsArrayList2.get(3));
 
 
         //set element
