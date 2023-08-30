@@ -74,7 +74,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayList1">
+  <component name="RunManager" selected="Application.linkedList1">
     <configuration name="ArrayList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book4.Chapter3.ArrayList1" />
       <module name="JavaGroupA" />
@@ -94,19 +94,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book4.Chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestEquality3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter6.TestEquality3" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="linkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book4.Chapter4.linkedList1" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book4.Chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.linkedList1" />
         <item itemvalue="Application.ArrayList1" />
         <item itemvalue="Application.StringBuilderApp" />
         <item itemvalue="Application.TestingPackages" />
         <item itemvalue="Application.TwoDimensional" />
-        <item itemvalue="Application.TestEquality3" />
       </list>
     </recent_temporary>
   </component>
