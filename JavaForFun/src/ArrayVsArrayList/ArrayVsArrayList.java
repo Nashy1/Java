@@ -1,6 +1,7 @@
 package ArrayVsArrayList;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayVsArrayList {
     public static void main(String[] args) {
@@ -14,6 +15,12 @@ public class ArrayVsArrayList {
         //arrayList do not have a fixed size, they will dynamically either expand or contract their size automatically
         //An arrylist can only hold objects not primitives.But you can use the wrapper class of whatever primitive data type.
         ArrayList<String> friendsArrayList = new ArrayList<>();
+        ArrayList<String> friendsArrayList2 = new ArrayList<>(Arrays.asList("JJ","OO","PP"));
+
+
+        System.out.println(friendsArray2[2]);
+        //for arrylist we use method calls
+        System.out.println(friendsArrayList2.get(2));
     }
 
 }
