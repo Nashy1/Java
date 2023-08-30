@@ -17,10 +17,39 @@ public class ArrayVsArrayList {
         ArrayList<String> friendsArrayList = new ArrayList<>();
         ArrayList<String> friendsArrayList2 = new ArrayList<>(Arrays.asList("JJ","OO","PP"));
 
-
+        //get element
         System.out.println(friendsArray2[2]);
         //for arrylist we use method calls
         System.out.println(friendsArrayList2.get(2));
+
+
+        //get size
+        System.out.println(friendsArray2.length);
+        System.out.println(friendsArrayList2.size());
+
+
+        //add element
+        //we cant add with Arrys
+//        friendsArrayList2.add("UU");
+//        System.out.println(friendsArrayList2.get(3));
+
+
+        //set element
+        friendsArray2[0] = "EE";
+        System.out.println(friendsArray2[0]);
+        friendsArrayList2.set(0,"EE");
+
+
+        //removing an element
+        //cant do this with arrys
+        friendsArrayList2.remove(0);
+        System.out.println(friendsArrayList2.size());
+        System.out.println(friendsArrayList2.get(0));
+
+        //print
+        System.out.println(friendsArray2);
+        System.out.println(friendsArrayList2);
+
     }
 
 }

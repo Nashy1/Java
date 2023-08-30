@@ -9,61 +9,87 @@ import java.util.Iterator;
 
 public class ArrayList1 implements Iterable {
     public static void main(String[] args) {
-//        //    ArrayList signs = new ArrayList();
-//        ArrayList sign = new ArrayList(200);
-//        sign.add(300);
-//        sign.add("hi");
-//        System.out.println(sign);
-
-//        Employee emp = new Employee("Jabez","Lot");
-//        ArrayList<Employee> sign = new ArrayList();
-////        sign.add("Mac P");
-//        sign.add(emp);
-//        System.out.println(sign);
-
-
-        ArrayList<String> nums = new ArrayList(2);
-        nums.add("one");
-        nums.add("two");
-        nums.add("three");
-        nums.add("four");
+////        //    ArrayList signs = new ArrayList();
+////        ArrayList sign = new ArrayList(200);
+////        sign.add(300);
+////        sign.add("hi");
+////        System.out.println(sign);
+//
+////        Employee emp = new Employee("Jabez","Lot");
+////        ArrayList<Employee> sign = new ArrayList();
+//////        sign.add("Mac P");
+////        sign.add(emp);
+////        System.out.println(sign);
+//
+//
+//        ArrayList<String> nums = new ArrayList(2);
+//        nums.add("one");
+//        nums.add("two");
+//        nums.add("three");
+//        nums.add("four");
+////        System.out.println(nums);
+////        nums.add(10, "ten");//err index does not exist
+////        for(int i= 0; i <nums.size();i++){
+////            System.out.println(nums.get(i));
+////        }
+//
+////        for(String e : nums){
+////            int i = nums.indexOf(e);
+////            System.out.println("Item" + i + ": " + e);
+////        }
+//
+////        Iterator e = nums.iterator();
+////        while(e.hasNext()){
+////            String s = (String) e.next();
+////            System.out.println(s);
+////        }
+//
+//
+////       String uno = nums.set(0,"Uno");
+////        String dos =  nums.set(1,"Dos");
+////        String tres =  nums.set(2,"Tres");
+////        String cuatro =  nums.set(3,"Cuatro");
+////        System.out.println(uno);
+////        System.out.println(dos);
+////        System.out.println(tres);
+////        System.out.println(cuatro);
+//
+//        ArrayList<String> newItems = new ArrayList(2);
+//        newItems.add("Uno");
+//        newItems.add("Dos");
+//        newItems.add("Tres");
+//        newItems.add("Cuatro");
+//
+//        for (int i =0; i < nums.size();i++){
+//            System.out.println(nums.set(i,newItems.get(i)));
+//        }
 //        System.out.println(nums);
-//        nums.add(10, "ten");//err index does not exist
-//        for(int i= 0; i <nums.size();i++){
-//            System.out.println(nums.get(i));
-//        }
 
-//        for(String e : nums){
-//            int i = nums.indexOf(e);
-//            System.out.println("Item" + i + ": " + e);
-//        }
+        ArrayList<Employee> emp = new ArrayList<>();
+        ArrayList<Employee> empp1 = new ArrayList<>();
+        Employee emp1 = new Employee("Zeze", "Miz");
+        Employee emp2 = new Employee("Thor", "Kai");
+        Employee emp3  = new Employee("Eli", "Pai");
 
-//        Iterator e = nums.iterator();
-//        while(e.hasNext()){
-//            String s = (String) e.next();
-//            System.out.println(s);
-//        }
+        emp.add(emp1);
+        emp.add(emp2);
+        emp.add(emp3);
+        empp1.add(emp1);
+        empp1.add(emp2);
+        empp1.add(emp3);
+        System.out.println(emp);
+        System.out.println(empp1);
 
+        //remove
+        emp.remove(0);
+        System.out.println(emp);
+        //removeall
+//        emp.removeAll(empp1);
+        System.out.println(emp);
+        //retrainsAll
+        emp.retainAll(empp1);
+        System.out.println(emp);
 
-//       String uno = nums.set(0,"Uno");
-//        String dos =  nums.set(1,"Dos");
-//        String tres =  nums.set(2,"Tres");
-//        String cuatro =  nums.set(3,"Cuatro");
-//        System.out.println(uno);
-//        System.out.println(dos);
-//        System.out.println(tres);
-//        System.out.println(cuatro);
-
-        ArrayList<String> newItems = new ArrayList(2);
-        newItems.add("Uno");
-        newItems.add("Dos");
-        newItems.add("Tres");
-        newItems.add("Cuatro");
-
-        for (int i =0; i < nums.size();i++){
-            System.out.println(nums.set(i,newItems.get(i)));
-        }
-        System.out.println(nums);
 
 
 
