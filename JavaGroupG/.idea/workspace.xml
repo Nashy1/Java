@@ -75,13 +75,26 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Spell">
+  <component name="RunManager" selected="Application.CountDownApp">
     <configuration name="AnonClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter7.AnonClass" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book3.Chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book5.Chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,19 +128,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TickTockInner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book3.Chapter7.TickTockInner" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book3.Chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TickTockStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter7.TickTockStatic" />
       <module name="JavaGroupA" />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownApp" />
         <item itemvalue="Application.Spell" />
         <item itemvalue="Application.TickTockAnon" />
         <item itemvalue="Application.AnonClass" />
         <item itemvalue="Application.TickTockStatic" />
-        <item itemvalue="Application.TickTockInner" />
       </list>
     </recent_temporary>
   </component>
