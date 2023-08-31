@@ -75,7 +75,20 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TickTockStatic">
+  <component name="RunManager" selected="Application.AnonClass">
+    <configuration name="AnonClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book3.Chapter7.AnonClass" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book3.Chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GenQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book4.Chapter5.GenQueueTest" />
       <module name="JavaGroupA" />
@@ -128,26 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linkedList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book4.Chapter4.linkedList1" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book4.Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonClass" />
         <item itemvalue="Application.TickTockStatic" />
         <item itemvalue="Application.TickTockInner" />
         <item itemvalue="Application.GenQueueTest" />
         <item itemvalue="Application.GenStackTest" />
-        <item itemvalue="Application.linkedList1" />
       </list>
     </recent_temporary>
   </component>
