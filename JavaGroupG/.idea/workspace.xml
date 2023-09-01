@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com" />
+    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com">
+      <change beforePath="$PROJECT_DIR$/../JavaForFun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaForFun/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +77,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownApp">
+  <component name="RunManager" selected="Application.Spell">
     <configuration name="AnonClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book3.Chapter7.AnonClass" />
       <module name="JavaGroupA" />
@@ -143,10 +145,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountDownApp" />
         <item itemvalue="Application.Spell" />
-        <item itemvalue="Application.TickTockAnon" />
         <item itemvalue="Application.AnonClass" />
+        <item itemvalue="Application.CountDownApp" />
+        <item itemvalue="Application.TickTockAnon" />
         <item itemvalue="Application.TickTockStatic" />
       </list>
     </recent_temporary>

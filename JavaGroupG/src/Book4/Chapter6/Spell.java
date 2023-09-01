@@ -46,21 +46,26 @@ public class Spell {
 //            System.out.println(spell.toString());
 //        spells.stream().forEach(s -> System.out.println(s));
 
-        //a filtered way
+//        //a filtered way
 //        for (Spell spell : spells){
 //            if (spell.type == SpellType.SPELL){
 //                System.out.println(spell);
 //            }
 //        }
 
-//       double total = spells.stream()
-////                .filter(s -> s.type == SpellType.SPELL)
-////                .filter(s-> s.name.toLowerCase().startsWith("a"))
-////                .mapToDouble(s->s.price)
-//                .count();
-//
-////        System.out.println("Total: "+total);
-//        System.out.println("There are: " +total+" spells");
+//        spells.parallelStream()
+//                .filter(s -> s.type == Spell.SpellType.SPELL)
+//                .filter(s -> s.name.toLowerCase().startsWith("a"))
+//                .forEach(s -> System.out.println(s));
+
+       double total = spells.stream()
+                .filter(s -> s.type == SpellType.SPELL)
+                .filter(s-> s.name.toLowerCase().startsWith("a"))
+                .mapToDouble(s->s.price)
+                .count();
+
+        System.out.println("Total: "+total);
+        System.out.println("There are: " +total+" spells");
 
 
 
@@ -71,12 +76,12 @@ public class Spell {
 //        System.out.println("Average = " + avg.getAsDouble());
 
 
-        spells.parallelStream()
-                .forEach(s-> System.out.println("First parallelStream: "+s.name));
-        spells.parallelStream()
-                .forEach(s-> System.out.println("Second parallelStream: "+s.name));
-        spells.parallelStream()
-                .forEach(s-> System.out.println("\nLast parallelStream: "+s.name));
+//        spells.parallelStream()
+//                .forEach(s-> System.out.println("First parallelStream: "+s.name));
+//        spells.parallelStream()
+//                .forEach(s-> System.out.println("Second parallelStream: "+s.name));
+//        spells.parallelStream()
+//                .forEach(s-> System.out.println("\nLast parallelStream: "+s.name));
 
     }
 
