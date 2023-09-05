@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class CountDownApp3 {
     public static void main(String[] args) {
-        CountDownClock clock = new CountDownClock();
+        CountDownClock2 clock = new CountDownClock2(20);
         ArrayList<Runnable> events = new ArrayList<Runnable>();
         events.add(new LaunchEvent(16,"Flood the pad!", clock));
         events.add(new LaunchEvent(6, "Start engines!", clock));
@@ -14,25 +14,24 @@ public class CountDownApp3 {
             new Thread(e).start();
         }
     }
-    interface TimeMonitor →26
+    interface TimeMonitor
     {
         int getTime();
     }
-    class CountDownClock extends Thread
-            implements TimeMonitor →31
+    class CountDownClock2 extends Thread
+            implements TimeMonitor
     {
-        private int t; →33
-public CountDownClock(int start) →35
+        private int t;
+public CountDownClock2(int start)
         {
             this.t = start;
         }
         public void run()
         {
-            for (; t >= 0; t--) →42
+            for (; t >= 0; t--)
             {
                 System.out.println("T minus " + t);
-                Programming Threads
-                CHAPTER 1 Programming Threads 487
+
                 try
                 {
                     Thread.sleep(1000);
@@ -41,9 +40,40 @@ public CountDownClock(int start) →35
                 {}
             }
         }
-        public int getTime() →54
+        public int getTime()
         {
             return t;
+        }
+    }
+    class LaunchEvent implements Runnable →60
+    {
+        private int start;
+        private String message;
+        TimeMonitor tm; →64
+public LaunchEvent(int start, String message,
+            TimeMonitor monitor)
+        {
+            this.start = start;
+            this.message = message;
+            this.tm = monitor;
+        }
+        public void run()
+        {
+            boolean eventDone = false;
+            while (!eventDone)
+            {
+                try
+                {
+                    Thread.sleep(10); →81
+                }
+                catch (InterruptedException e)
+                {}
+                if (tm.getTime() <= start) →85
+                {
+                    System.out.println(this.message);
+                    eventDone = true;
+                }
+            }
         }
     }
 }
