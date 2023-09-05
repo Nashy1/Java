@@ -115,7 +115,7 @@ public class SceneSwitcher extends Application {
         iCounter--;
         lblcounter.setText(Integer.toString(iCounter));
     }
-    private void btnSwitchToScene1_Click()
+    private void btnSTS1_Click()
     {
         stage.setScene(scene1);
     }
