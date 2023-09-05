@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CountDownApp">
+  <component name="RunManager" selected="Application.CountDownApp2">
     <configuration name="BirthdayFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book5.Chapter4.BirthdayFun" />
       <module name="JavaGroupA" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DirList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book5.Chapter3.DirList" />
+    <configuration name="CountDownApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp2" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book5.Chapter3.*" />
+          <option name="PATTERN" value="Book5.Chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownApp2" />
         <item itemvalue="Application.CountDownApp" />
         <item itemvalue="Application.BirthdayFun" />
         <item itemvalue="Application.FormatDateTime" />
         <item itemvalue="Application.TimeTester" />
-        <item itemvalue="Application.DirList" />
       </list>
     </recent_temporary>
   </component>

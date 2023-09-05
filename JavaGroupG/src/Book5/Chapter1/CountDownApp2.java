@@ -3,7 +3,7 @@ package Book5.Chapter1;
 public class CountDownApp2 {
     public static void main(String[] args)
     {
-        Thread clock = new CountDownClock(); 
+        Thread clock = new CountDownClock();
         Runnable flood, ignition, liftoff;
         flood = new LaunchEvent(16, "Flood the pad!");
         ignition = new LaunchEvent(6, "Start engines!");
