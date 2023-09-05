@@ -7,7 +7,8 @@ public class MultiThreading {
       /*this will create five threads at the same time*/
       for (int i = 0; i<5; i++){
          ThreadExtend TE = new ThreadExtend();
-         TE.start();
+         Thread mTE = new Thread(TE);
+         mTE.start();
       }
       throw new RuntimeException();
 
