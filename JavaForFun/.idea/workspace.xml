@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AnonInnerClass">
+  <component name="RunManager" selected="Application.MultiThreading">
     <configuration name="AnonInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classes.AnonInnerClass" />
       <module name="JavaForFun" />
@@ -75,8 +75,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiThreading" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programming_Techniques.MultiThreading" />
+      <module name="JavaForFun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programming_Techniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreading" />
         <item itemvalue="Application.AnonInnerClass" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ArrayVsArrayList" />
