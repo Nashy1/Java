@@ -100,5 +100,9 @@ public class SceneSwitcher extends Application {
                     + iClickCount + " times." );
         }
     }
+    private void btnSwitchToScene2_Click()
+    {
+        stage.setScene(scene2);
+    }
 
 }
