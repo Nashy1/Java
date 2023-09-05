@@ -100,7 +100,7 @@ public class SceneSwitcher extends Application {
                     + iClickCount + " times." );
         }
     }
-    private void btnSwitchToScene2_Click()
+    private void btnSTS2_Click()
     {
         stage.setScene(scene2);
     }
@@ -110,7 +110,7 @@ public class SceneSwitcher extends Application {
         iCounter++;
         lblcounter.setText(Integer.toString(iCounter));
     }
-    private void btnSubtract_Click()
+    private void btnSub_Click()
     {
         iCounter--;
         lblcounter.setText(Integer.toString(iCounter));
