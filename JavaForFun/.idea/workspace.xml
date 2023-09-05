@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.recursion">
+  <component name="RunManager" selected="Application.MultiThreading">
     <configuration name="AnonInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classes.AnonInnerClass" />
       <module name="JavaForFun" />
@@ -103,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.recursion" />
         <item itemvalue="Application.MultiThreading" />
+        <item itemvalue="Application.recursion" />
         <item itemvalue="Application.AnonInnerClass" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ArrayVsArrayList" />
@@ -133,6 +133,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Programming_Techniques/MultiThreading.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

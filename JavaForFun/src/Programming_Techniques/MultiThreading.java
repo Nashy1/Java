@@ -10,9 +10,9 @@ public class MultiThreading {
          Thread mTE = new Thread(TE);
          mTE.start();
       }
-      throw new RuntimeException();
+//      throw new RuntimeException();
 
-
+//
 //      ThreadExtend TE = new ThreadExtend();
 //      ThreadExtend TE2 = new ThreadExtend();
 //      /*the start method allows us to run two threads at the same time*/
