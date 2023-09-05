@@ -21,8 +21,8 @@ public class Annon extends Application {
 
         @Override
         public void start(Stage primaryStage) {
-            //instance of Clickhandler
-            com.example.java_dummiesbook6.Chapter2.InnerClass.ClickHandler ch = new com.example.java_dummiesbook6.Chapter2.InnerClass.ClickHandler();
+           
+
             //Add btn setup
             btnAdd = new Button();
             btnAdd.setText("Add");
