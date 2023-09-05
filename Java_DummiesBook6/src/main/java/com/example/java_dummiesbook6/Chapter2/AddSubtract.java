@@ -1,4 +1,4 @@
-package com.example.java_dummiesbook6;
+package com.example.java_dummiesbook6.Chapter2;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
