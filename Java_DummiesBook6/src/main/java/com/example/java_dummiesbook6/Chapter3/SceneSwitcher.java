@@ -104,5 +104,20 @@ public class SceneSwitcher extends Application {
     {
         stage.setScene(scene2);
     }
+    // Event handlers for scene 2 →112
+    private void btnAdd_Click()
+    {
+        iCounter++;
+        lblcounter.setText(Integer.toString(iCounter));
+    }
+    private void btnSubtract_Click()
+    {
+        iCounter--;
+        lblcounter.setText(Integer.toString(iCounter));
+    }
+    private void btnSwitchToScene1_Click()
+    {
+        stage.setScene(scene1);
+    }
 
 }
