@@ -1,13 +1,15 @@
 package com.example.java_dummiesbook6.Chapter2;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
-public class Annon extends Application {
+public class AddSubAnnon extends Application {
 
 
         Button btnAdd;
@@ -21,7 +23,7 @@ public class Annon extends Application {
 
         @Override
         public void start(Stage primaryStage) {
-           
+
 
             //Add btn setup
             btnAdd = new Button();
@@ -37,7 +39,15 @@ public class Annon extends Application {
             //Sub btn setup
             btnSub = new Button();
             btnSub.setText("Subtract");
-            btnSub.setOnAction(ch);
+            btnSub.setOnAction(new EventHandler<ActionEvent>()
+            {
+                public void handle(ActionEvent e)
+                {
+
+                    iCounter--;
+                    lbl.setText(Integer.toString(iCounter));
+                }
+            } );
 
             //label setup
             lbl=new Label();

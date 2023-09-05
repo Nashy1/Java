@@ -9,9 +9,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
-import java.nio.channels.Pipe;
-
-public class InnerClass extends Application  {
+public class AddSubInnerClass extends Application  {
     Button btnAdd;
     Button btnSub;
     Label lbl;
