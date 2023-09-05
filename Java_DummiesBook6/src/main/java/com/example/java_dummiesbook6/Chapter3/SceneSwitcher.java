@@ -91,5 +91,14 @@ public class SceneSwitcher extends Application {
     {
         iClickCount++;
         if (iClickCount == 1)
+        {
+            lblClicks.setText("You have clicked once.");
+        }
+        else
+        {
+            lblClicks.setText("You have clicked "
+                    + iClickCount + " times." );
+        }
+    }
 
 }
