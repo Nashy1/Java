@@ -35,7 +35,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MultiThreading">
+  <component name="RunManager" selected="Application.recursion">
     <configuration name="AnonInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classes.AnonInnerClass" />
       <module name="JavaForFun" />
@@ -88,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Programming_Techniques.recursion" />
+      <module name="JavaForFun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Programming_Techniques.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.recursion" />
         <item itemvalue="Application.MultiThreading" />
         <item itemvalue="Application.AnonInnerClass" />
         <item itemvalue="Application.MainClass" />
