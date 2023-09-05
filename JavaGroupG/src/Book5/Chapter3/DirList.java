@@ -26,7 +26,7 @@ public class DirList {
     }
 
     private static void listDirectories(File dir, String indent){
-        File[] dirs = dir.listFiles();
+        File[]  dirs =dir.listFiles();
         for(File f:dirs){
             if (f.isDirectory()){
                 System.out.println(indent + f.getName());
