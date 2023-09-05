@@ -17,9 +17,8 @@ public class FormatDateTime {
         printDate(now, "h:mm a");
     }
     public static void printDate(LocalDateTime date,String pattern){
-        DateTimeFormatter f;
-        f = DateTimeFormatter.ofPattern(pattern);
-        pattern = (pattern + " ").substring(0,14);
-        System.out.println(pattern+ " " + date.format());
+        DateTimeFormatter f = DateTimeFormatter.ofPattern(pattern);
+        pattern = (pattern + "              ").substring(0,14);
+        System.out.println(pattern+ " " + date.format(f));
     }
 }
