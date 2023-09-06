@@ -1,4 +1,4 @@
-package com.example.java_dummiesbook6.Chapter2;
+package com.example.java_dummiesbook6.Chapter3;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -8,114 +8,115 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class SceneSwitcher extends Application {
-    //vars for click-counter scene
-    int iClickCount =0;
+public class SceneSwitcher extends Application
+{
+    //    INSTANCE VARIABLES FOR CLICK-COUNTER SCENE
+    int iClickCount = 0;
     Label lblClicks;
     Button btnClickMe;
-    Button btnSTS2;
+    Button btnSwitchToScene2;
     Scene scene1;
 
-
-    //vars for Add-Subtract scene
-    int iCounter =0;
-    Label lblcounter;
+    //    INSTANCE VARIABLES FOR ADD-SUBTRACT SCENE
+    int iCounter = 0;
+    Label lblCounter;
     Button btnAdd;
-    Button btnSub;
-    Button btnSTS1;
+    Button btnSubtract;
+    Button btnSwitchToScene1;
     Scene scene2;
 
-    //var of stage
+    //    INSTANCE VARIABLE FOR STAGE
     Stage stage;
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args)
+    {
         launch(args);
     }
 
     @Override
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage)
+    {
         stage = primaryStage;
-        //building the click-counter scene
+
+//        BUILD THE CLICK-COUNTER SCENE
         lblClicks = new Label();
         lblClicks.setText("You have not clicked the button.");
 
         btnClickMe = new Button();
         btnClickMe.setText("Click me please!");
-        btnClickMe.setOnAction(e->btnClickMe_Click());
+        btnClickMe.setOnAction(e -> btnClickMe_Click());
 
+        btnSwitchToScene2 = new Button();
+        btnSwitchToScene2.setText("Switch!");
+        btnSwitchToScene2.setOnAction(e -> btnSwitchToScene2_Click());
 
-        btnSTS1 =new Button();
-        btnSTS1.setText("Swicth!");
-        btnSTS1.setOnAction(e->btnSTS2_Click());
+        VBox pane1 = new VBox(10);
+        pane1.getChildren().addAll(lblClicks, btnClickMe, btnSwitchToScene2);
 
+        scene1 = new Scene(pane1, 250, 150);
 
-        VBox pane1 = new VBox();
-        pane1.getChildren().addAll(lblClicks,btnClickMe,btnSTS2);
-        scene1 =new Scene(pane1,250,150);
+//        BUILD THE ADD-SUBTRACT SCENE
+        lblCounter = new Label();
+        lblCounter.setText(Integer.toString(iCounter));
 
-
-        //build the Add-sub scene
-        lblcounter = new Label();
-        lblcounter.setText(Integer.toString(iCounter));
-
-
-        btnAdd =new Button();
+        btnAdd = new Button();
         btnAdd.setText("Add");
-        btnAdd.setOnAction(e->btnAdd_Click());
+        btnAdd.setOnAction(e -> btnAdd_Click());
 
-        btnSub =new Button();
-        btnSub.setText("Subtract");
-        btnSub.setOnAction(e->btnSub_Click());
+        btnSubtract = new Button();
+        btnSubtract.setText("Subtract");
+        btnSubtract.setOnAction(e -> btnSubtract_Click());
 
-        btnSTS1=new Button();
-        btnSTS1.setText("Switch!");
-       btnSTS1.setOnAction(
-                e -> btnSTS1_Click() );
-
+        btnSwitchToScene2 = new Button();
+        btnSwitchToScene2.setText("Switch!");
+        btnSwitchToScene2.setOnAction(e -> btnSwitchToScene1_Click());
 
         HBox pane2 = new HBox(10);
-        pane2.getChildren().addAll(lblcounter, btnAdd,
-                btnSub, btnSTS2);
+        pane2.getChildren().addAll(lblCounter, btnAdd, btnSubtract, btnSwitchToScene2);
 
         scene2 = new Scene(pane2, 300, 75);
 
-        // Set the stage with scene 1 and show the stage →84
+        // SET THE STAGE WITH SCENE1 AND SHOW THE STAGE
         primaryStage.setScene(scene1);
         primaryStage.setTitle("Scene Switcher");
         primaryStage.show();
 
-
-
     }
+
+    // EVENT HANDLERS FOR SCENE 1
     public void btnClickMe_Click()
     {
         iClickCount++;
         if (iClickCount == 1)
+
         {
             lblClicks.setText("You have clicked once.");
-        }
-        else
+        } else
         {
-            lblClicks.setText("You have clicked "
-                    + iClickCount + " times." );
+            lblClicks.setText("You have clicked " + iClickCount + " times.");
         }
     }
-    private void btnSTS2_Click()
+
+    private void btnSwitchToScene2_Click()
     {
         stage.setScene(scene2);
     }
-    // Event handlers for scene 2 →112
+
+    // EVENT HANDLERS FOR SCENE 2
     private void btnAdd_Click()
     {
         iCounter++;
-        lblcounter.setText(Integer.toString(iCounter));
+        lblCounter.setText(Integer.toString(iCounter));
     }
-    private void btnSub_Click()
+
+    private void btnSubtract_Click()
     {
         iCounter--;
-        lblcounter.setText(Integer.toString(iCounter));
+        lblCounter.setText(Integer.toString(iCounter));
     }
-    private void btnSTS1_Click()
+
+    private void btnSwitchToScene1_Click()
     {
         stage.setScene(scene1);
     }
