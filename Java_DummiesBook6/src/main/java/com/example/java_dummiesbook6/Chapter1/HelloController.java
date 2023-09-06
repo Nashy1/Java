@@ -1,4 +1,4 @@
-package com.example.java_dummiesbook6;
+package com.example.java_dummiesbook6.Chapter1;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
