@@ -1,4 +1,4 @@
-package com.example.java_dummiesbook6.Chapter3;
+package com.example.java_dummiesbook6.Chapter2;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
