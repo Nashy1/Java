@@ -47,9 +47,9 @@ public class SceneSwitcher extends Application
         btnClickMe.setText("Click me please!");
         btnClickMe.setOnAction(e -> btnClickMe_Click());
 
-        btnSwitchToScene2 = new Button();
-        btnSwitchToScene2.setText("Switch!");
-        btnSwitchToScene2.setOnAction(e -> btnSwitchToScene2_Click());
+        btnSwitchToScene1 = new Button();
+        btnSwitchToScene1.setText("Switch!");
+        btnSwitchToScene1.setOnAction(e -> btnSwitchToScene2_Click());
 
         VBox pane1 = new VBox(10);
         pane1.getChildren().addAll(lblClicks, btnClickMe, btnSwitchToScene2);
