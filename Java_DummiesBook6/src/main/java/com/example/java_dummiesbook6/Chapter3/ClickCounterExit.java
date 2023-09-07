@@ -1,9 +1,10 @@
 package com.example.java_dummiesbook6.Chapter3;
 
+import com.example.java_dummiesbook6.Chapter4.VBoxTest;
 import javafx.application.*;
+import javafx.scene.layout.VBox;
 import javafx.stage.*;
 import javafx.scene.*;
-import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.geometry.*;
 import java.util.*;
