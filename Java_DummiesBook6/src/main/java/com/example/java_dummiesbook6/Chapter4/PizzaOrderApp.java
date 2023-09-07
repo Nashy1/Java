@@ -106,7 +106,7 @@ public class PizzaOrderApp extends Application {
         grid.addRow(0, lblName, txtName);
         grid.addRow(1, lblPhone, txtPhone);
         grid.addRow(2, lblAddress, txtAddress);
-        grid.addRow(3, paneSize, paneCrust, paneToppings);
+        grid.addRow(3, paneSize, paneToppings);
         grid.add(paneButtons,2,4);
 
         //setting alignments and spanning
@@ -169,7 +169,7 @@ public class PizzaOrderApp extends Application {
         a.setTitle("Order Details");
         a.showAndWait();
     }
-    public String buildToppings(CheckBox chk, String msg) 
+    public String buildToppings(CheckBox chk, String msg)
     {
 // Helper method for displaying the list of toppings
         if (chk.isSelected())
@@ -188,4 +188,4 @@ public class PizzaOrderApp extends Application {
     }
 }
 
-}
+
