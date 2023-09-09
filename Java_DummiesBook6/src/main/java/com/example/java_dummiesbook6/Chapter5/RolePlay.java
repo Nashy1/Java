@@ -34,7 +34,7 @@ public class RolePlay extends Application {
         txtCharacter = new TextField();
         txtCharacter.setMinWidth(200);
         txtCharacter.setMaxWidth(200);
-        txtActor.setPromptText("Enter the name of the character here.");
+        txtCharacter.setPromptText("Enter the name of the character here.");
 
         //Creating the Actor label
         Label lblActor = new Label("Actor's Name:");
@@ -68,7 +68,7 @@ public class RolePlay extends Application {
         paneBtn.setAlignment(Pos.BOTTOM_RIGHT);
 
         //adding the char,act,and btn pane to a Vbox
-        VBox pane =new VBox(10,paneChar,paneAct,paneAct);
+        VBox pane =new VBox(10,paneChar,paneAct,paneBtn);
 
         //setting the scene
         Scene scene =new Scene(pane);
@@ -78,7 +78,7 @@ public class RolePlay extends Application {
     }
 
     public void btnOk_Click(){
-        String errorMessage = " ";
+        String errorMessage = "";
 
         if (txtCharacter.getText().length() == 0){
             errorMessage +="\nCharacter is a required field.";
@@ -93,7 +93,7 @@ public class RolePlay extends Application {
             a.showAndWait();
         }else {
             Alert a = new Alert(Alert.AlertType.WARNING,errorMessage);
-            a.setTitle("Missg Date");
+            a.setTitle("Missing Date");
             a.showAndWait();
         }
     }
