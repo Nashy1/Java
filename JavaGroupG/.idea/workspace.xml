@@ -9,12 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com">
-      <change beforePath="$PROJECT_DIR$/../Java_DummiesBook6/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_DummiesBook6/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_DummiesBook6/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_DummiesBook6/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_DummiesBook6/target/classes/com/example/java_dummiesbook6/Chapter5/RolePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_DummiesBook6/target/classes/com/example/java_dummiesbook6/Chapter5/RolePlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java_DummiesBook6/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_DummiesBook6/target/classes/module-info.class" afterDir="false" />
-    </list>
+    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,20 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileTest">
-    <configuration name="BirthdayFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book5.Chapter4.BirthdayFun" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book5.Chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.javatest">
     <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp" />
       <module name="JavaGroupA" />
@@ -146,13 +128,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="javatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.javatest" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book8.Chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.javatest" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.Reg" />
         <item itemvalue="Application.CountDownApp2" />
         <item itemvalue="Application.CountDownApp" />
-        <item itemvalue="Application.BirthdayFun" />
       </list>
     </recent_temporary>
   </component>
