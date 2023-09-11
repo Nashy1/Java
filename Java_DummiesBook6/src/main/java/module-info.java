@@ -15,4 +15,6 @@ module com.example.java_dummiesbook6 {
     opens com.example.java_dummiesbook6.Chapter4 to javafx.fxml;
     exports com.example.java_dummiesbook6.Chapter5;
     opens com.example.java_dummiesbook6.Chapter5 to javafx.fxml;
+    exports com.example.java_dummiesbook6.Chapter6;
+    opens com.example.java_dummiesbook6.Chapter6 to javafx.fxml;
 }
