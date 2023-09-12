@@ -5,12 +5,15 @@ import java.io.File;
 
 public class FileFilterTest {
     public static void main(String[] args) {
-//        FileChooserTest tc = new FileChooserTest();
-        System.out.println("You chose this file:" + getFile());
+        FileChooserTest tc = new FileChooserTest();
+        System.out.println("You chose this file:" + tc.getFile());
     }
 
-    static File getFile() {
+   public File getFile() {
         JFileChooser fc = new JFileChooser();
+        fc.setFileFilter(new JavaFilter());
+        fc.setAcceptAllFileFilterUsed(false);
+        fc.addChoosableFileFilter(new JavaFilter());
         int result = fc.showOpenDialog(null);
         File file = null;
         if (result == JFileChooser.APPROVE_OPTION) {
@@ -19,3 +22,21 @@ public class FileFilterTest {
 
     }
 }
+
+ class JavaFilter extends javax.swing.filechooser.FileFilter{
+    public boolean accept(File f){
+        if(f.isDirectory()){
+            return true;
+        }
+        String name =f.getName();
+        if (name.matches(".*\\.java")) {
+            return true;
+        }return false;
+    }
+
+     @Override
+     public String getDescription() {
+         return "Java Files (*.java)";
+     }
+
+ }
