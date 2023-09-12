@@ -32,6 +32,26 @@ public class ReadFile {
             System.out.println("I/O Error");
             System.exit(0);
         }
-        
+        if (line ==null){
+            return null;
+        }else {
+            data = line.split("\t");
+            title =data[0];
+            year =Integer.parseInt(data[1]);
+            price =Double.parseDouble(data[2]);
+            return new Movie(title,year,price);
+        }
+    }
+
+
+    private static class Movie{
+        public String title;
+        public int year;
+        public double price;
+        public Movie(String title,int year,double price){
+            this.title =title;
+            this.year=year;
+            this.price =price;
+        }
     }
 }
