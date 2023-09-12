@@ -6,7 +6,7 @@ import java.text.NumberFormat;
 public class ReadFile {
     public static void main(String[] args) {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
-        BufferedReader in = getReader("Movies.txt");
+        BufferedReader in = getReader("C:\\Users\\ghost\\IdeaProjects\\JavaGroupG\\src\\Book8\\Chapter2\\Movies.txt");
         Movie movie =readMovie(in);
         while (movie != null){
             String msg = Integer.toString(movie.year);
