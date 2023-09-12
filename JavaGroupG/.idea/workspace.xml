@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileFilterTest">
+  <component name="RunManager" selected="Application.PathTest">
     <configuration name="FileChooserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileChooserTest" />
       <module name="JavaGroupA" />
@@ -129,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book5.Chapter2.Reg" />
+    <configuration name="PathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.PathTest" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book5.Chapter2.*" />
+          <option name="PATTERN" value="Book8.Chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,17 +145,17 @@
     <list>
       <item itemvalue="Application.FileChooserTest" />
       <item itemvalue="Application.FileFilterTest" />
+      <item itemvalue="Application.PathTest" />
       <item itemvalue="Application.FileTest" />
       <item itemvalue="Application.ListDir" />
-      <item itemvalue="Application.Reg" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathTest" />
         <item itemvalue="Application.FileFilterTest" />
         <item itemvalue="Application.FileChooserTest" />
         <item itemvalue="Application.ListDir" />
         <item itemvalue="Application.FileTest" />
-        <item itemvalue="Application.Reg" />
       </list>
     </recent_temporary>
   </component>
