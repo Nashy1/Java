@@ -29,7 +29,9 @@ public class ReadFile {
         try {
             line= in.readLine();
         }catch (IOException e){
-            
+            System.out.println("I/O Error");
+            System.exit(0);
         }
+        
     }
 }
