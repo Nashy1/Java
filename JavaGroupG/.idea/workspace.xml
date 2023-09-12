@@ -75,9 +75,9 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListDir">
-    <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp" />
+  <component name="RunManager" selected="Application.FileChooserTest">
+    <configuration name="CountDownApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp2" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownApp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp2" />
+    <configuration name="FileChooserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileChooserTest" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book5.Chapter1.*" />
+          <option name="PATTERN" value="Book8.Chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,7 +143,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CountDownApp" />
+      <item itemvalue="Application.FileChooserTest" />
       <item itemvalue="Application.CountDownApp2" />
       <item itemvalue="Application.FileTest" />
       <item itemvalue="Application.ListDir" />
@@ -151,11 +151,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileChooserTest" />
         <item itemvalue="Application.ListDir" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.Reg" />
         <item itemvalue="Application.CountDownApp2" />
-        <item itemvalue="Application.CountDownApp" />
       </list>
     </recent_temporary>
   </component>
