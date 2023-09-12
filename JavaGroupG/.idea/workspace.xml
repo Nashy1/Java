@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FileVisitorDemo">
+  <component name="RunManager" selected="Application.FileStreamsTest">
     <configuration name="FileChooserTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileChooserTest" />
       <module name="JavaGroupA" />
@@ -102,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileVisitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileVisitorDemo" />
+    <configuration name="FileStreamsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.FileStreamsTest" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book8.Chapter1.*" />
+          <option name="PATTERN" value="Book8.Chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,10 +115,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDir" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.ListDir" />
+    <configuration name="FileVisitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileVisitorDemo" />
       <module name="JavaGroupA" />
-      <option name="PROGRAM_PARAMETERS" value="C:\Users\ghost\IdeaProjects\JavaGroupG\src\Book4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book8.Chapter1.*" />
@@ -145,17 +144,17 @@
     <list>
       <item itemvalue="Application.FileChooserTest" />
       <item itemvalue="Application.FileFilterTest" />
+      <item itemvalue="Application.FileStreamsTest" />
       <item itemvalue="Application.FileVisitorDemo" />
       <item itemvalue="Application.PathTest" />
-      <item itemvalue="Application.ListDir" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileStreamsTest" />
         <item itemvalue="Application.FileVisitorDemo" />
         <item itemvalue="Application.PathTest" />
         <item itemvalue="Application.FileFilterTest" />
         <item itemvalue="Application.FileChooserTest" />
-        <item itemvalue="Application.ListDir" />
       </list>
     </recent_temporary>
   </component>
