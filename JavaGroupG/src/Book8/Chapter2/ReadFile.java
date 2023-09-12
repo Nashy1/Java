@@ -43,7 +43,7 @@ public class ReadFile {
         if (line ==null){
             return null;
         }else {
-            data = line.split("\t");
+            data = line.split("#");
             title =data[0];
             year =Integer.parseInt(data[1]);
             price =Double.parseDouble(data[2]);
