@@ -75,20 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFile">
-    <configuration name="FileFilterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileFilterTest" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book8.Chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WriterFile">
     <configuration name="FileStreamsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.FileStreamsTest" />
       <module name="JavaGroupA" />
@@ -141,20 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriterFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.WriterFile" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book8.Chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.FileFilterTest" />
       <item itemvalue="Application.FileStreamsTest" />
       <item itemvalue="Application.FileVisitorDemo" />
       <item itemvalue="Application.PathTest" />
       <item itemvalue="Application.ReadFile" />
+      <item itemvalue="Application.WriterFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriterFile" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.FileStreamsTest" />
         <item itemvalue="Application.FileVisitorDemo" />
         <item itemvalue="Application.PathTest" />
-        <item itemvalue="Application.FileFilterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,6 +272,11 @@
           <url>file://$PROJECT_DIR$/src/Book8/Chapter2/ReadFile.java</url>
           <line>7</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Book8/Chapter2/WriterFile.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Book2/Chapter3/MarbleApp.java</url>

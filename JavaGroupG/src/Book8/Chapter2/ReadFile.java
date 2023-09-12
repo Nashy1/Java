@@ -15,6 +15,11 @@ public class ReadFile {
             System.out.println(msg);
             movie =readMovie(in);
         }
+        try {
+            in.close();
+        }catch (Exception e){
+            System.out.println("Err: "+e);
+        }
 
     }
     private static BufferedReader getReader(String name){
