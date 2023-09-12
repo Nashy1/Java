@@ -7,6 +7,14 @@ public class ReadFile {
     public static void main(String[] args) {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         BufferedReader in = getReader("Movies.txt");
+        Movie movie =readMovie(in);
+        while (movie != null){
+            String msg = Integer.toString(movie.year);
+            msg += ": " + movie.title;
+            msg += "(" +cf.format(movie.price) +")";
+            System.out.println(msg);
+            movie =readMovie(in);
+        }
 
     }
     private static BufferedReader getReader(String name){
