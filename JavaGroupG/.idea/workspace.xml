@@ -268,6 +268,11 @@
           <line>17</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Book8/Chapter2/ReadFile.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Book2/Chapter3/MarbleApp.java</url>
           <line>9</line>
