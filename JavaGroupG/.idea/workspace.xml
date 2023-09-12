@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javatest">
+  <component name="RunManager" selected="Application.ListDir">
     <configuration name="CountDownApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book5.Chapter1.CountDownApp" />
       <module name="JavaGroupA" />
@@ -115,6 +115,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ListDir" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.ListDir" />
+      <module name="JavaGroupA" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\ghost\IdeaProjects\JavaGroupG\src\Book4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Book8.Chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Reg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book5.Chapter2.Reg" />
       <module name="JavaGroupA" />
@@ -128,22 +142,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.javatest" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book8.Chapter1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.CountDownApp" />
+      <item itemvalue="Application.CountDownApp2" />
+      <item itemvalue="Application.FileTest" />
+      <item itemvalue="Application.ListDir" />
+      <item itemvalue="Application.Reg" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javatest" />
+        <item itemvalue="Application.ListDir" />
         <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.Reg" />
         <item itemvalue="Application.CountDownApp2" />
@@ -332,6 +340,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Book8/Chapter1/tstarg.java</url>
+          <line>3</line>
+          <properties class="Book8.Chapter1.tstarg" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="51" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
