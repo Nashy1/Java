@@ -2,10 +2,11 @@ package Book8.Chapter1;
 
 import javax.swing.*;
 import java.io.File;
+import java.io.FileFilter;
 
 public class FileFilterTest {
     public static void main(String[] args) {
-        FileChooserTest tc = new FileChooserTest();
+        FileFilterTest tc = new FileFilterTest();
         System.out.println("You chose this file:" + tc.getFile());
     }
 
@@ -24,15 +25,17 @@ public class FileFilterTest {
 }
 
  class JavaFilter extends javax.swing.filechooser.FileFilter{
-    public boolean accept(File f){
-        if(f.isDirectory()){
-            return true;
-        }
-        String name =f.getName();
-        if (name.matches(".*\\.java")) {
-            return true;
-        }return false;
-    }
+     public boolean accept(File f) {
+         if (f.isDirectory()) {
+             return  true;
+         }
+         String name = f.getName();
+         if (name.matches(".*\\.java")) {
+             return true;
+         } else {
+             return false;
+         }
+     }
 
      @Override
      public String getDescription() {
