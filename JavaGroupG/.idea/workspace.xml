@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com" />
+    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com">
+      <change beforePath="$PROJECT_DIR$/../JavaForFun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaForFun/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,26 +77,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListDir">
-    <configuration name="FileStreamsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.FileStreamsTest" />
+  <component name="RunManager" selected="Application.RPV">
+    <configuration name="CandyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter2.CandyCounter" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book8.Chapter2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileVisitorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.FileVisitorDemo" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Book8.Chapter1.*" />
+          <option name="PATTERN" value="OCPBook.Chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Book8.Chapter1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RPV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter3.RPV" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCPBook.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileStreamsTest" />
-      <item itemvalue="Application.FileVisitorDemo" />
+      <item itemvalue="Application.CandyCounter" />
+      <item itemvalue="Application.RPV" />
       <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.WriterFile" />
       <item itemvalue="Application.ListDir" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RPV" />
+        <item itemvalue="Application.CandyCounter" />
         <item itemvalue="Application.ListDir" />
         <item itemvalue="Application.WriterFile" />
         <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.FileStreamsTest" />
-        <item itemvalue="Application.FileVisitorDemo" />
       </list>
     </recent_temporary>
   </component>
