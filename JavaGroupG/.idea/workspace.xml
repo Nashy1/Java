@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com">
-      <change beforePath="$PROJECT_DIR$/../JavaForFun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaForFun/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="adfe2e28-87d8-439e-9b9a-d8c3a4f6d4d0" name="Changes" comment="com" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,18 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ghost/IdeaProjects/JavaGroupG&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/ghost/IdeaProjects/JavaGroupG",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ghost\IdeaProjects\JavaGroupG" />
@@ -77,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RPV">
+  <component name="RunManager" selected="Application.SwitchWithEnum">
     <configuration name="CandyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter2.CandyCounter" />
       <module name="JavaGroupA" />
@@ -117,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.ReadFile" />
+    <configuration name="SwitchExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter3.SwitchExpression" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book8.Chapter2.*" />
+          <option name="PATTERN" value="OCPBook.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriterFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.WriterFile" />
+    <configuration name="SwitchWithEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter3.SwitchWithEnum" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book8.Chapter2.*" />
+          <option name="PATTERN" value="OCPBook.Chapter3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +142,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ListDir" />
       <item itemvalue="Application.CandyCounter" />
       <item itemvalue="Application.RPV" />
-      <item itemvalue="Application.ReadFile" />
-      <item itemvalue="Application.WriterFile" />
-      <item itemvalue="Application.ListDir" />
+      <item itemvalue="Application.SwitchExpression" />
+      <item itemvalue="Application.SwitchWithEnum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SwitchWithEnum" />
+        <item itemvalue="Application.SwitchExpression" />
         <item itemvalue="Application.RPV" />
         <item itemvalue="Application.CandyCounter" />
         <item itemvalue="Application.ListDir" />
-        <item itemvalue="Application.WriterFile" />
-        <item itemvalue="Application.ReadFile" />
       </list>
     </recent_temporary>
   </component>
