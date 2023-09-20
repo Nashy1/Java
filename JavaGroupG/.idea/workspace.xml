@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WriterFile">
+  <component name="RunManager" selected="Application.ListDir">
     <configuration name="FileStreamsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Book8.Chapter2.FileStreamsTest" />
       <module name="JavaGroupA" />
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.PathTest" />
+    <configuration name="ListDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.ListDir" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -144,17 +144,17 @@
     <list>
       <item itemvalue="Application.FileStreamsTest" />
       <item itemvalue="Application.FileVisitorDemo" />
-      <item itemvalue="Application.PathTest" />
       <item itemvalue="Application.ReadFile" />
       <item itemvalue="Application.WriterFile" />
+      <item itemvalue="Application.ListDir" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListDir" />
         <item itemvalue="Application.WriterFile" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.FileStreamsTest" />
         <item itemvalue="Application.FileVisitorDemo" />
-        <item itemvalue="Application.PathTest" />
       </list>
     </recent_temporary>
   </component>
