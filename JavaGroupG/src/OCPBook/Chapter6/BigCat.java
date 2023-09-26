@@ -1,4 +1,4 @@
-package Chapter6;
+package OCPBook.Chapter6;
 
 public class BigCat {
     protected double size;
