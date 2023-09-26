@@ -14,5 +14,11 @@ public class Toucan {
         Toucan t =new Toucan();
 //        t.fly(new int[]{1,2,3});
         t.fly(1,2,3);
+        t.ui(5);
     }
+
+    private int ui(int i){
+        return i;
+    }
+
 }

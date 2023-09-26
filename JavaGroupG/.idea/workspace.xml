@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bunny">
+  <component name="RunManager" selected="Application.Toucan">
     <configuration name="Beetle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter6.Beetle" />
       <module name="JavaGroupA" />
@@ -128,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter6.lion" />
+    <configuration name="Toucan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.Toucan" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter6.*" />
+          <option name="PATTERN" value="OCPBook.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +142,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Toucan" />
       <item itemvalue="Application.Beetle" />
       <item itemvalue="Application.Bunny" />
       <item itemvalue="Application.Duck" />
       <item itemvalue="Application.Flamingo" />
-      <item itemvalue="Application.lion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Toucan" />
         <item itemvalue="Application.Bunny" />
         <item itemvalue="Application.Beetle" />
         <item itemvalue="Application.Duck" />
         <item itemvalue="Application.Flamingo" />
-        <item itemvalue="Application.lion" />
       </list>
     </recent_temporary>
   </component>
