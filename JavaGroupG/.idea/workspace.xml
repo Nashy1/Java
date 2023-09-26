@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Beetle">
+  <component name="RunManager" selected="Application.Bunny">
     <configuration name="Beetle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter6.Beetle" />
       <module name="JavaGroupA" />
@@ -89,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BigCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Chapter6.BigCat" />
+    <configuration name="Bunny" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6.Bunny" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -143,18 +143,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Beetle" />
-      <item itemvalue="Application.BigCat" />
+      <item itemvalue="Application.Bunny" />
       <item itemvalue="Application.Duck" />
       <item itemvalue="Application.Flamingo" />
       <item itemvalue="Application.lion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Bunny" />
         <item itemvalue="Application.Beetle" />
         <item itemvalue="Application.Duck" />
         <item itemvalue="Application.Flamingo" />
         <item itemvalue="Application.lion" />
-        <item itemvalue="Application.BigCat" />
       </list>
     </recent_temporary>
   </component>
