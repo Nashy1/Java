@@ -75,13 +75,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Ostrich">
-    <configuration name="BadZooParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.BadZooParking" />
+  <component name="RunManager" selected="Application.BigCat">
+    <configuration name="BigCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6.BigCat" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter5.*" />
+          <option name="PATTERN" value="Chapter6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,7 +142,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BadZooParking" />
+      <item itemvalue="Application.BigCat" />
       <item itemvalue="Application.Dog" />
       <item itemvalue="Application.Ostrich" />
       <item itemvalue="Application.Parrot" />
@@ -150,11 +150,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigCat" />
         <item itemvalue="Application.Ostrich" />
         <item itemvalue="Application.Parrot" />
         <item itemvalue="Application.ZooTickets" />
         <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.BadZooParking" />
       </list>
     </recent_temporary>
   </component>
