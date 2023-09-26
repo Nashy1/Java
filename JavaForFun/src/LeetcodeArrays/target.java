@@ -10,10 +10,11 @@ public class target {
         for (int i =0;i<nums.length;i++){
             for (int j = i+1;j<nums.length; j++){
                 if (nums[j]==target -nums[i]){
-                    System.out.println(new int[]{i,j}.toString());
-//                    System.out.println(nums[i] +" ," +nums[j]);
+//                    System.out.println(new int[]{i,j}.toString());
+                    System.out.println(nums[i] +"," +nums[j]);
                 }
             }
         }
     }
+
 }
