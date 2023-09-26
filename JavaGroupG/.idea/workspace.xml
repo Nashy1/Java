@@ -75,13 +75,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MantaRay">
-    <configuration name="CandyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter2.CandyCounter" />
+  <component name="RunManager" selected="Application.ZooParking">
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.Counter" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter2.*" />
+          <option name="PATTERN" value="OCPBook.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,19 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RPV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter3.RPV" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SwitchExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter3.SwitchExpression" />
       <module name="JavaGroupA" />
@@ -128,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchWithEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter3.SwitchWithEnum" />
+    <configuration name="ZooInventoryManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.ZooInventoryManager" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter3.*" />
+          <option name="PATTERN" value="OCPBook.Chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZooParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.ZooParking" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OCPBook.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +142,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Counter" />
       <item itemvalue="Application.MantaRay" />
-      <item itemvalue="Application.CandyCounter" />
-      <item itemvalue="Application.RPV" />
+      <item itemvalue="Application.ZooInventoryManager" />
+      <item itemvalue="Application.ZooParking" />
       <item itemvalue="Application.SwitchExpression" />
-      <item itemvalue="Application.SwitchWithEnum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZooParking" />
+        <item itemvalue="Application.ZooInventoryManager" />
+        <item itemvalue="Application.Counter" />
         <item itemvalue="Application.MantaRay" />
         <item itemvalue="Application.SwitchExpression" />
-        <item itemvalue="Application.SwitchWithEnum" />
-        <item itemvalue="Application.RPV" />
-        <item itemvalue="Application.CandyCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -367,6 +367,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/OCPBook/Chapter5/ZooInventoryManager.java</url>
+          <line>4</line>
+          <properties class="OCPBook.Chapter5.ZooInventoryManager" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
