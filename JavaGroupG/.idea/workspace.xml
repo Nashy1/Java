@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZooTickets">
+  <component name="RunManager" selected="Application.Parrot">
     <configuration name="BadZooParking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.BadZooParking" />
       <module name="JavaGroupA" />
@@ -102,8 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZooInventoryManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.ZooInventoryManager" />
+    <configuration name="Parrot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.Parrot" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
@@ -144,17 +144,17 @@
     <list>
       <item itemvalue="Application.BadZooParking" />
       <item itemvalue="Application.Dog" />
-      <item itemvalue="Application.ZooInventoryManager" />
+      <item itemvalue="Application.Parrot" />
       <item itemvalue="Application.ZooParking" />
       <item itemvalue="Application.ZooTickets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parrot" />
         <item itemvalue="Application.ZooTickets" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.BadZooParking" />
         <item itemvalue="Application.ZooParking" />
-        <item itemvalue="Application.ZooInventoryManager" />
       </list>
     </recent_temporary>
   </component>
