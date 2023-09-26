@@ -75,26 +75,13 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BigCat">
+  <component name="RunManager" selected="Application.lion">
     <configuration name="BigCat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chapter6.BigCat" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.Dog" />
-      <module name="JavaGroupA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,20 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter6.lion" />
+      <module name="JavaGroupA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Chapter6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BigCat" />
-      <item itemvalue="Application.Dog" />
       <item itemvalue="Application.Ostrich" />
       <item itemvalue="Application.Parrot" />
       <item itemvalue="Application.ZooTickets" />
+      <item itemvalue="Application.lion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lion" />
         <item itemvalue="Application.BigCat" />
         <item itemvalue="Application.Ostrich" />
         <item itemvalue="Application.Parrot" />
         <item itemvalue="Application.ZooTickets" />
-        <item itemvalue="Application.Dog" />
       </list>
     </recent_temporary>
   </component>
