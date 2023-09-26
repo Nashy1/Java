@@ -8,7 +8,7 @@ public class Flamingo {
     }
 
     public void setColor(String color) {
-        color = color;
+        this.color = color;
     }
 
     public static void main(String[] args) {
