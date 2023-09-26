@@ -75,7 +75,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SwitchExpression">
+  <component name="RunManager" selected="Application.MantaRay">
     <configuration name="CandyCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter2.CandyCounter" />
       <module name="JavaGroupA" />
@@ -89,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Book8.Chapter1.ListDir" />
+    <configuration name="MantaRay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter5.MantaRay" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Book8.Chapter1.*" />
+          <option name="PATTERN" value="OCPBook.Chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,7 +142,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ListDir" />
+      <item itemvalue="Application.MantaRay" />
       <item itemvalue="Application.CandyCounter" />
       <item itemvalue="Application.RPV" />
       <item itemvalue="Application.SwitchExpression" />
@@ -150,11 +150,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MantaRay" />
         <item itemvalue="Application.SwitchExpression" />
         <item itemvalue="Application.SwitchWithEnum" />
         <item itemvalue="Application.RPV" />
         <item itemvalue="Application.CandyCounter" />
-        <item itemvalue="Application.ListDir" />
       </list>
     </recent_temporary>
   </component>
