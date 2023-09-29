@@ -4,12 +4,10 @@ import java.util.Scanner;
 
 public class GuessingGaming {
     static Scanner sc = new Scanner(System.in);
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         boolean keepPlaying = true;
         System.out.println("Let's play a guessing game!");
-        while (keepPlaying)
-        {
+        while (keepPlaying) {
             boolean validInput;
             int number, guess;
             String answer;

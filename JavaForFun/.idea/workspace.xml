@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3194de25-e777-4e24-85b1-65c37c5e0ac5" name="Changes" comment="" />
+    <list default="true" id="3194de25-e777-4e24-85b1-65c37c5e0ac5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaGroupG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGroupG/out/production/JavaGroupA/OCPBook/Chapter5/Toucan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/out/production/JavaGroupA/OCPBook/Chapter5/Toucan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGroupG/src/Book2/Chapter5/GuessingGaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/src/Book2/Chapter5/GuessingGaming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaGroupG/src/OCPBook/Chapter5/Toucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/src/OCPBook/Chapter5/Toucan.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,13 +40,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.target">
-    <configuration name="AnonInnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Classes.AnonInnerClass" />
+  <component name="RunManager" selected="Application.GuessingGame2">
+    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Games.GuessingGame.GuessingGame" />
       <module name="JavaForFun" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Classes.*" />
+          <option name="PATTERN" value="Games.GuessingGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessingGame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Games.GuessingGame.GuessingGame2" />
+      <module name="JavaForFun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Games.GuessingGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,10 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessingGame2" />
+        <item itemvalue="Application.GuessingGame" />
         <item itemvalue="Application.target" />
         <item itemvalue="Application.MultiThreading" />
         <item itemvalue="Application.recursion" />
-        <item itemvalue="Application.AnonInnerClass" />
       </list>
     </recent_temporary>
   </component>
