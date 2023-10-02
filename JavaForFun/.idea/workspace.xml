@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3194de25-e777-4e24-85b1-65c37c5e0ac5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../JavaGroupG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGroupG/out/production/JavaGroupA/OCPBook/Chapter5/Toucan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/out/production/JavaGroupA/OCPBook/Chapter5/Toucan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGroupG/src/Book2/Chapter5/GuessingGaming.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/src/Book2/Chapter5/GuessingGaming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaGroupG/src/OCPBook/Chapter5/Toucan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaGroupG/src/OCPBook/Chapter5/Toucan.java" afterDir="false" />
-    </list>
+    <list default="true" id="3194de25-e777-4e24-85b1-65c37c5e0ac5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

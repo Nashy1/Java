@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -77,7 +78,7 @@
       <recent name="Book2.Chapter5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Toucan">
+  <component name="RunManager" selected="Application.FunctionalMethodTests">
     <configuration name="Beetle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter6.Beetle" />
       <module name="JavaGroupA" />
@@ -117,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Flamingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter6.Flamingo" />
+    <configuration name="FunctionalMethodTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OCPBook.Chapter8.FunctionalMethodTests" />
       <module name="JavaGroupA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="OCPBook.Chapter6.*" />
+          <option name="PATTERN" value="OCPBook.Chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +145,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Toucan" />
+      <item itemvalue="Application.FunctionalMethodTests" />
       <item itemvalue="Application.Beetle" />
       <item itemvalue="Application.Bunny" />
       <item itemvalue="Application.Duck" />
-      <item itemvalue="Application.Flamingo" />
+      <item itemvalue="Application.Toucan" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionalMethodTests" />
         <item itemvalue="Application.Toucan" />
         <item itemvalue="Application.Bunny" />
         <item itemvalue="Application.Beetle" />
         <item itemvalue="Application.Duck" />
-        <item itemvalue="Application.Flamingo" />
       </list>
     </recent_temporary>
   </component>
